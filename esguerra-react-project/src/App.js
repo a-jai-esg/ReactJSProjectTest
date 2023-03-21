@@ -1,24 +1,15 @@
-import logo from './logo.svg';
-import gaw from 'img/gaw.jpg';
+import itik from './img/itik.png'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={gaw} className="App-logo" alt="logo" />
-        <p>Gaw onsa atoha gaw? HAHAHAHA</p>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src={itik} className="App-logo" alt="logo" />
+        <h1>
+          Hello. Quack.
+        </h1>
+        <p>Test Sample by: ESGUERRA, Elijah Nicholas</p>
       </header>
     </div>
   );
